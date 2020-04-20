@@ -12,3 +12,4 @@ if __name__=="__main__":
     #x1,y1,z1=rotate_z_axis(x1,y1,z1,44.971)	  
     alm=merge_xyz(x1,y1,z1)  
     print(alm)  
+  
