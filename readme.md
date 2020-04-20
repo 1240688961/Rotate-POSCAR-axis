@@ -4,9 +4,11 @@
 需要POSCAR文件，  
 算完后会输出直接在屏幕输出新的x,y,z坐标  
 使用方法： 在文件夹中同时有CONTCAR 和本result.py  
-执行    ./result.py
-
-##在下面的代码中
+执行
+```
+./result.py
+```
+##在下面的代码为主函数，需要根据自己的需求改
 ```python
 if __name__=="__main__":  
     x1,y1,z1=read_CONTCAR()  
@@ -23,5 +25,5 @@ if __name__=="__main__":
  这下面段话表示沿着z轴旋转44.971° 
  ```
      x1,y1,z1=rotate_z_axis(x1,y1,z1,44.971)	  
-   ```
+ ```
    如需旋转y轴也是同理，这里不再展示
