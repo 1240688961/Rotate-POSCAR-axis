@@ -3,7 +3,7 @@
 似乎没什么用处  
 需要POSCAR文件，  
 算完后会输出直接在屏幕输出新的x,y,z坐标  
-使用方法： 在文件夹中同时有CONTCAR 和本result.py  
+使用方法： 在文件夹中同时有CONTCAR 和result.py  
 执行
 ```
 ./result.py
